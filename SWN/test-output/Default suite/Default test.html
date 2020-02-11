@@ -1,0 +1,130 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Feb 10 23:33:28 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>53 seconds (53256 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.SWN.LoginPageTest.LoginTest()'><b>LoginTest</b><br>Test class: test.SWN.LoginPageTest<br/>
+<a href="#Output-1078705341" onClick='toggleBox("Output-1078705341", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1078705341" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1078705341">
+-----------------------LoginTest--------------<br/>
+Logging testing with username - bistestcustomdev<br/>
+Logging testing with password - @@BisTest123<br/>
+Trying to find Element By : By.xpath: //input[@id='ctl00_ctl00_Main_Login_Login1_UserName']<br/>
+Found Element By : By.xpath: //input[@id='ctl00_ctl00_Main_Login_Login1_UserName']<br/>
+Trying to find Element By : By.xpath: //input[@id='ctl00_ctl00_Main_Login_Login1_Password']<br/>
+Found Element By : By.xpath: //input[@id='ctl00_ctl00_Main_Login_Login1_Password']<br/>
+Trying to find Element By : By.xpath: //input[@id='ctl00_ctl00_Main_Login_Login1_LoginButton']<br/>
+Found Element By : By.xpath: //input[@id='ctl00_ctl00_Main_Login_Login1_LoginButton']<br/>
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (be2062a07670a9a976178d19f8bcf458)] -> xpath: //input[@id='ctl00_ctl00_Main_Login_Login1_LoginButton']]<br/>
+Clicked on: [[ChromeDriver: chrome on WINDOWS (be2062a07670a9a976178d19f8bcf458)] -> xpath: //input[@id='ctl00_ctl00_Main_Login_Login1_LoginButton']]<br/>
+Trying to find Element By : By.xpath: //nobr[contains(text(),'Home')]<br/>
+Found Element By : By.xpath: //nobr[contains(text(),'Home')]<br/>
+Successful logging with username -  bistestcustomdev<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>test.SWN.LoginPageTest@1a968a59</td></tr>
+<tr>
+<td title='test.SWN.LoginPageTest.ProfileTest()'><b>ProfileTest</b><br>Test class: test.SWN.LoginPageTest<br/>
+<a href="#Output-351877391" onClick='toggleBox("Output-351877391", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-351877391" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-351877391">
+-----------------------ProfileTest--------------<br/>
+Trying to find Element By : By.xpath: //span[@id='ctl00_ctl00_Main_Login_lblWelcomeGreeting']<br/>
+Found Element By : By.xpath: //span[@id='ctl00_ctl00_Main_Login_lblWelcomeGreeting']<br/>
+Trying to find Element By : By.xpath: //div[@id='SideMenuWebListbar_0_Item_0']<br/>
+Found Element By : By.xpath: //div[@id='SideMenuWebListbar_0_Item_0']<br/>
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (be2062a07670a9a976178d19f8bcf458)] -> xpath: //div[@id='SideMenuWebListbar_0_Item_0']]<br/>
+Clicked on: [[ChromeDriver: chrome on WINDOWS (be2062a07670a9a976178d19f8bcf458)] -> xpath: //div[@id='SideMenuWebListbar_0_Item_0']]<br/>
+Trying to find Element By : By.xpath: //body[@id='ctl00_ctl00_MasterPage']/form[@id='aspnetForm']/table/tbody/tr/td/table/tbody/tr/td/div[@id='ctl00_ctl00_pnlMain']/div[@id='ctl00_ctl00_Main_upPage']/table/tbody/tr/td/table[1]<br/>
+Found Element By : By.xpath: //body[@id='ctl00_ctl00_MasterPage']/form[@id='aspnetForm']/table/tbody/tr/td/table/tbody/tr/td/div[@id='ctl00_ctl00_pnlMain']/div[@id='ctl00_ctl00_Main_upPage']/table/tbody/tr/td/table[1]<br/>
+Trying to find Element By : By.xpath: //img[@id='ctl00_ctl00_imgLogout']<br/>
+Found Element By : By.xpath: //img[@id='ctl00_ctl00_imgLogout']<br/>
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (be2062a07670a9a976178d19f8bcf458)] -> xpath: //img[@id='ctl00_ctl00_imgLogout']]<br/>
+Clicked on: [[ChromeDriver: chrome on WINDOWS (be2062a07670a9a976178d19f8bcf458)] -> xpath: //img[@id='ctl00_ctl00_imgLogout']]<br/>
+Trying to find Element By : By.xpath: //input[@id='ctl00_ctl00_Main_Login_Login1_UserName']<br/>
+Found Element By : By.xpath: //input[@id='ctl00_ctl00_Main_Login_Login1_UserName']<br/>
+</div>
+</td>
+<td></td>
+<td>15</td>
+<td>test.SWN.LoginPageTest@1a968a59</td></tr>
+</table><p>
+</body>
+</html>
