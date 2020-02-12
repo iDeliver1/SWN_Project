@@ -18,7 +18,7 @@ public class Excel_Libraries {
 
 	public static String Folder_path = "C:\\Reporting\\Report"+Gernric_functions.fTimestamp();
 	static String Excel_path =  Folder_path+"\\Excelreport"+Gernric_functions.fTimestamp()+".xls";
-	static Workbook WB;
+	static Workbook  WB;
 	
 	//-------------------------------------------Excel reporter---------------------------------------------
 	 public static void fExcelReporter(String Step_details,String Actual,String Expected,String Status,String Time) throws Throwable

@@ -23,9 +23,7 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="src" path="/SalesforceMaven"/>
-	<classpathentry kind="lib" path="//IDELIVER10/Users/Public/Selenium/JAR Files/SeleniumJar/poi-ooxml-3.16.jar"/>
-	<classpathentry kind="src" path="/Gmail"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="E:/Selenium_jar/poi-ooxml-3.16.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

@@ -4,6 +4,8 @@ package com.swn.qa.base;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.time.Duration;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
@@ -34,7 +36,7 @@ public class TestBase  {
 	public static final Logger log = Logger.getLogger(TestBase.class.getName());
 	private static final Duration DEFAULT_WAIT_POLLING = Duration.ofSeconds(1);
 	private static final Duration DEFAULT_WAIT_DURATION = Duration.ofSeconds(20);
-	public static WebDriver driver;
+	public  static WebDriver driver;
 	public static Properties prop;
 	public static EventFiringWebDriver e_driver;
 	public static WebEventListener eventListener;
@@ -100,26 +102,29 @@ public class TestBase  {
 		// Now create object of EventListerHandler to register it with EventFiringWebDriver
 		eventListener = new WebEventListener();
 		e_driver.register(eventListener);
-		driver = e_driver;	
+		driver = e_driver;	driver.manage().window().maximize();
+		driver.manage().deleteAllCookies();
+		driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);		
+		driver.get(prop.getProperty("url"));
 		
 }
 	
 	
 	
-	public void SetUP(String Reportname) throws Throwable{
-		initialization();
+	public void SetUP(String Reportname,String Title) throws Throwable{
 		Extent_reporter.createins();
-		getReportname(Reportname);
-		initateURL();	
-		
+		getReportname(Reportname);	
+		objExtent.validation("Verify User is able to launch " +GetProjectName()+"  page", driver.getTitle(), Title);
 	}
+	
 	public void initateURL() throws Throwable{
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);		
 		driver.get(prop.getProperty("url"));
-		objExtent.validation("Verify User is able to launch Login page", driver.getTitle(), "CarrierHub");
+		
 	}
 	//Logging method so that the same log is added in logger as well as syso
 		public static void log(String e) {
@@ -133,7 +138,14 @@ public class TestBase  {
 		Extent_reporter.CreateRoportname(Reportname);
 	}
 	
-	
+	public  String GetProjectName(){
+		
+		String userDir = System.getProperty("user.dir");
+		Path path = Paths.get(userDir);
+		String project = path.getFileName().toString();
+		return project;
+		
+	}
 	
 	/*public static void getParentReportname(String Reportname){
 		Extent_reporter.CreateRoportname(Reportname,extent);

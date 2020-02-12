@@ -35,10 +35,10 @@
       <![CDATA[Found Element By : By.xpath: //input[@id='ctl00_ctl00_Main_Login_Login1_LoginButton']]]>
     </line>
     <line>
-      <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (be2062a07670a9a976178d19f8bcf458)] -> xpath: //input[@id='ctl00_ctl00_Main_Login_Login1_LoginButton']]]]>
+      <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (07ffbb5fca8fe45cee2d84c25f0e6956)] -> xpath: //input[@id='ctl00_ctl00_Main_Login_Login1_LoginButton']]]]>
     </line>
     <line>
-      <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (be2062a07670a9a976178d19f8bcf458)] -> xpath: //input[@id='ctl00_ctl00_Main_Login_Login1_LoginButton']]]]>
+      <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (07ffbb5fca8fe45cee2d84c25f0e6956)] -> xpath: //input[@id='ctl00_ctl00_Main_Login_Login1_LoginButton']]]]>
     </line>
     <line>
       <![CDATA[Trying to find Element By : By.xpath: //nobr[contains(text(),'Home')]]]>
@@ -53,22 +53,16 @@
       <![CDATA[-----------------------ProfileTest--------------]]>
     </line>
     <line>
-      <![CDATA[Trying to find Element By : By.xpath: //span[@id='ctl00_ctl00_Main_Login_lblWelcomeGreeting']]]>
-    </line>
-    <line>
-      <![CDATA[Found Element By : By.xpath: //span[@id='ctl00_ctl00_Main_Login_lblWelcomeGreeting']]]>
-    </line>
-    <line>
       <![CDATA[Trying to find Element By : By.xpath: //div[@id='SideMenuWebListbar_0_Item_0']]]>
     </line>
     <line>
       <![CDATA[Found Element By : By.xpath: //div[@id='SideMenuWebListbar_0_Item_0']]]>
     </line>
     <line>
-      <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (be2062a07670a9a976178d19f8bcf458)] -> xpath: //div[@id='SideMenuWebListbar_0_Item_0']]]]>
+      <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (07ffbb5fca8fe45cee2d84c25f0e6956)] -> xpath: //div[@id='SideMenuWebListbar_0_Item_0']]]]>
     </line>
     <line>
-      <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (be2062a07670a9a976178d19f8bcf458)] -> xpath: //div[@id='SideMenuWebListbar_0_Item_0']]]]>
+      <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (07ffbb5fca8fe45cee2d84c25f0e6956)] -> xpath: //div[@id='SideMenuWebListbar_0_Item_0']]]]>
     </line>
     <line>
       <![CDATA[Trying to find Element By : By.xpath: //body[@id='ctl00_ctl00_MasterPage']/form[@id='aspnetForm']/table/tbody/tr/td/table/tbody/tr/td/div[@id='ctl00_ctl00_pnlMain']/div[@id='ctl00_ctl00_Main_upPage']/table/tbody/tr/td/table[1]]]>
@@ -77,16 +71,46 @@
       <![CDATA[Found Element By : By.xpath: //body[@id='ctl00_ctl00_MasterPage']/form[@id='aspnetForm']/table/tbody/tr/td/table/tbody/tr/td/div[@id='ctl00_ctl00_pnlMain']/div[@id='ctl00_ctl00_Main_upPage']/table/tbody/tr/td/table[1]]]>
     </line>
     <line>
+      <![CDATA[Trying to find Element By : By.xpath: //td[@id='ctl00_ctl00_Main_iuwtUserProfilestd2']]]>
+    </line>
+    <line>
+      <![CDATA[Found Element By : By.xpath: //td[@id='ctl00_ctl00_Main_iuwtUserProfilestd2']]]>
+    </line>
+    <line>
+      <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (07ffbb5fca8fe45cee2d84c25f0e6956)] -> xpath: //td[@id='ctl00_ctl00_Main_iuwtUserProfilestd2']]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (07ffbb5fca8fe45cee2d84c25f0e6956)] -> xpath: //td[@id='ctl00_ctl00_Main_iuwtUserProfilestd2']]]]>
+    </line>
+    <line>
+      <![CDATA[Trying to find Element By : By.xpath: //table[@id='ctl00_ctl00_Main_iuwtUserProfiles__ctl2_Tab3_iuwtLoadDisplaySettings_tbl']]]>
+    </line>
+    <line>
+      <![CDATA[Found Element By : By.xpath: //table[@id='ctl00_ctl00_Main_iuwtUserProfiles__ctl2_Tab3_iuwtLoadDisplaySettings_tbl']]]>
+    </line>
+    <line>
+      <![CDATA[Trying to find Element By : By.xpath: //td[@id='ctl00_ctl00_Main_iuwtUserProfiles__ctl2_Tab3_iuwtLoadDisplaySettingstd4']]]>
+    </line>
+    <line>
+      <![CDATA[Found Element By : By.xpath: //td[@id='ctl00_ctl00_Main_iuwtUserProfiles__ctl2_Tab3_iuwtLoadDisplaySettingstd4']]]>
+    </line>
+    <line>
+      <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (07ffbb5fca8fe45cee2d84c25f0e6956)] -> xpath: //td[@id='ctl00_ctl00_Main_iuwtUserProfiles__ctl2_Tab3_iuwtLoadDisplaySettingstd4']]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (07ffbb5fca8fe45cee2d84c25f0e6956)] -> xpath: //td[@id='ctl00_ctl00_Main_iuwtUserProfiles__ctl2_Tab3_iuwtLoadDisplaySettingstd4']]]]>
+    </line>
+    <line>
       <![CDATA[Trying to find Element By : By.xpath: //img[@id='ctl00_ctl00_imgLogout']]]>
     </line>
     <line>
       <![CDATA[Found Element By : By.xpath: //img[@id='ctl00_ctl00_imgLogout']]]>
     </line>
     <line>
-      <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (be2062a07670a9a976178d19f8bcf458)] -> xpath: //img[@id='ctl00_ctl00_imgLogout']]]]>
+      <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (07ffbb5fca8fe45cee2d84c25f0e6956)] -> xpath: //img[@id='ctl00_ctl00_imgLogout']]]]>
     </line>
     <line>
-      <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (be2062a07670a9a976178d19f8bcf458)] -> xpath: //img[@id='ctl00_ctl00_imgLogout']]]]>
+      <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (07ffbb5fca8fe45cee2d84c25f0e6956)] -> xpath: //img[@id='ctl00_ctl00_imgLogout']]]]>
     </line>
     <line>
       <![CDATA[Trying to find Element By : By.xpath: //input[@id='ctl00_ctl00_Main_Login_Login1_UserName']]]>
@@ -95,12 +119,12 @@
       <![CDATA[Found Element By : By.xpath: //input[@id='ctl00_ctl00_Main_Login_Login1_UserName']]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="53256" started-at="2020-02-10T18:03:28Z" finished-at="2020-02-10T18:04:22Z">
+  <suite name="Default suite" duration-ms="51992" started-at="2020-02-12T12:37:37Z" finished-at="2020-02-12T12:38:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="53256" started-at="2020-02-10T18:03:28Z" finished-at="2020-02-10T18:04:22Z">
+    <test name="Default test" duration-ms="51992" started-at="2020-02-12T12:37:37Z" finished-at="2020-02-12T12:38:29Z">
       <class name="test.SWN.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:test.SWN.LoginPageTest@1a968a59]" name="setUp" is-config="true" duration-ms="26187" started-at="2020-02-10T23:33:28Z" finished-at="2020-02-10T23:33:55Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.SWN.LoginPageTest@7cd62f43]" name="setUp" is-config="true" duration-ms="17911" started-at="2020-02-12T18:07:37Z" finished-at="2020-02-12T18:07:55Z">
           <reporter-output>
             <line>
               <![CDATA[Before navigating to: 'http://carriers.swn.com/CarrierHub/Login/Login.aspx']]>
@@ -110,7 +134,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="LoginTest()[pri:1, instance:test.SWN.LoginPageTest@1a968a59]" name="LoginTest" duration-ms="10007" started-at="2020-02-10T23:33:55Z" finished-at="2020-02-10T23:34:05Z">
+        <test-method status="PASS" signature="createReport()[pri:0, instance:test.SWN.LoginPageTest@7cd62f43]" name="createReport" is-config="true" duration-ms="5937" started-at="2020-02-12T18:07:55Z" finished-at="2020-02-12T18:08:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createReport -->
+        <test-method status="PASS" signature="LoginTest()[pri:1, instance:test.SWN.LoginPageTest@7cd62f43]" name="LoginTest" duration-ms="10551" started-at="2020-02-12T18:08:01Z" finished-at="2020-02-12T18:08:11Z">
           <reporter-output>
             <line>
               <![CDATA[-----------------------LoginTest--------------]]>
@@ -140,10 +168,10 @@
               <![CDATA[Found Element By : By.xpath: //input[@id='ctl00_ctl00_Main_Login_Login1_LoginButton']]]>
             </line>
             <line>
-              <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (be2062a07670a9a976178d19f8bcf458)] -> xpath: //input[@id='ctl00_ctl00_Main_Login_Login1_LoginButton']]]]>
+              <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (07ffbb5fca8fe45cee2d84c25f0e6956)] -> xpath: //input[@id='ctl00_ctl00_Main_Login_Login1_LoginButton']]]]>
             </line>
             <line>
-              <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (be2062a07670a9a976178d19f8bcf458)] -> xpath: //input[@id='ctl00_ctl00_Main_Login_Login1_LoginButton']]]]>
+              <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (07ffbb5fca8fe45cee2d84c25f0e6956)] -> xpath: //input[@id='ctl00_ctl00_Main_Login_Login1_LoginButton']]]]>
             </line>
             <line>
               <![CDATA[Trying to find Element By : By.xpath: //nobr[contains(text(),'Home')]]]>
@@ -156,16 +184,10 @@
             </line>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method status="PASS" signature="ProfileTest()[pri:2, instance:test.SWN.LoginPageTest@1a968a59]" name="ProfileTest" duration-ms="15408" started-at="2020-02-10T23:34:05Z" depends-on-methods="test.SWN.LoginPageTest.LoginTest" finished-at="2020-02-10T23:34:20Z">
+        <test-method status="PASS" signature="ProfileTest()[pri:2, instance:test.SWN.LoginPageTest@7cd62f43]" name="ProfileTest" duration-ms="15032" started-at="2020-02-12T18:08:11Z" depends-on-methods="test.SWN.LoginPageTest.LoginTest" finished-at="2020-02-12T18:08:26Z">
           <reporter-output>
             <line>
               <![CDATA[-----------------------ProfileTest--------------]]>
-            </line>
-            <line>
-              <![CDATA[Trying to find Element By : By.xpath: //span[@id='ctl00_ctl00_Main_Login_lblWelcomeGreeting']]]>
-            </line>
-            <line>
-              <![CDATA[Found Element By : By.xpath: //span[@id='ctl00_ctl00_Main_Login_lblWelcomeGreeting']]]>
             </line>
             <line>
               <![CDATA[Trying to find Element By : By.xpath: //div[@id='SideMenuWebListbar_0_Item_0']]]>
@@ -174,10 +196,10 @@
               <![CDATA[Found Element By : By.xpath: //div[@id='SideMenuWebListbar_0_Item_0']]]>
             </line>
             <line>
-              <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (be2062a07670a9a976178d19f8bcf458)] -> xpath: //div[@id='SideMenuWebListbar_0_Item_0']]]]>
+              <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (07ffbb5fca8fe45cee2d84c25f0e6956)] -> xpath: //div[@id='SideMenuWebListbar_0_Item_0']]]]>
             </line>
             <line>
-              <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (be2062a07670a9a976178d19f8bcf458)] -> xpath: //div[@id='SideMenuWebListbar_0_Item_0']]]]>
+              <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (07ffbb5fca8fe45cee2d84c25f0e6956)] -> xpath: //div[@id='SideMenuWebListbar_0_Item_0']]]]>
             </line>
             <line>
               <![CDATA[Trying to find Element By : By.xpath: //body[@id='ctl00_ctl00_MasterPage']/form[@id='aspnetForm']/table/tbody/tr/td/table/tbody/tr/td/div[@id='ctl00_ctl00_pnlMain']/div[@id='ctl00_ctl00_Main_upPage']/table/tbody/tr/td/table[1]]]>
@@ -186,16 +208,46 @@
               <![CDATA[Found Element By : By.xpath: //body[@id='ctl00_ctl00_MasterPage']/form[@id='aspnetForm']/table/tbody/tr/td/table/tbody/tr/td/div[@id='ctl00_ctl00_pnlMain']/div[@id='ctl00_ctl00_Main_upPage']/table/tbody/tr/td/table[1]]]>
             </line>
             <line>
+              <![CDATA[Trying to find Element By : By.xpath: //td[@id='ctl00_ctl00_Main_iuwtUserProfilestd2']]]>
+            </line>
+            <line>
+              <![CDATA[Found Element By : By.xpath: //td[@id='ctl00_ctl00_Main_iuwtUserProfilestd2']]]>
+            </line>
+            <line>
+              <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (07ffbb5fca8fe45cee2d84c25f0e6956)] -> xpath: //td[@id='ctl00_ctl00_Main_iuwtUserProfilestd2']]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (07ffbb5fca8fe45cee2d84c25f0e6956)] -> xpath: //td[@id='ctl00_ctl00_Main_iuwtUserProfilestd2']]]]>
+            </line>
+            <line>
+              <![CDATA[Trying to find Element By : By.xpath: //table[@id='ctl00_ctl00_Main_iuwtUserProfiles__ctl2_Tab3_iuwtLoadDisplaySettings_tbl']]]>
+            </line>
+            <line>
+              <![CDATA[Found Element By : By.xpath: //table[@id='ctl00_ctl00_Main_iuwtUserProfiles__ctl2_Tab3_iuwtLoadDisplaySettings_tbl']]]>
+            </line>
+            <line>
+              <![CDATA[Trying to find Element By : By.xpath: //td[@id='ctl00_ctl00_Main_iuwtUserProfiles__ctl2_Tab3_iuwtLoadDisplaySettingstd4']]]>
+            </line>
+            <line>
+              <![CDATA[Found Element By : By.xpath: //td[@id='ctl00_ctl00_Main_iuwtUserProfiles__ctl2_Tab3_iuwtLoadDisplaySettingstd4']]]>
+            </line>
+            <line>
+              <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (07ffbb5fca8fe45cee2d84c25f0e6956)] -> xpath: //td[@id='ctl00_ctl00_Main_iuwtUserProfiles__ctl2_Tab3_iuwtLoadDisplaySettingstd4']]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (07ffbb5fca8fe45cee2d84c25f0e6956)] -> xpath: //td[@id='ctl00_ctl00_Main_iuwtUserProfiles__ctl2_Tab3_iuwtLoadDisplaySettingstd4']]]]>
+            </line>
+            <line>
               <![CDATA[Trying to find Element By : By.xpath: //img[@id='ctl00_ctl00_imgLogout']]]>
             </line>
             <line>
               <![CDATA[Found Element By : By.xpath: //img[@id='ctl00_ctl00_imgLogout']]]>
             </line>
             <line>
-              <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (be2062a07670a9a976178d19f8bcf458)] -> xpath: //img[@id='ctl00_ctl00_imgLogout']]]]>
+              <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (07ffbb5fca8fe45cee2d84c25f0e6956)] -> xpath: //img[@id='ctl00_ctl00_imgLogout']]]]>
             </line>
             <line>
-              <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (be2062a07670a9a976178d19f8bcf458)] -> xpath: //img[@id='ctl00_ctl00_imgLogout']]]]>
+              <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (07ffbb5fca8fe45cee2d84c25f0e6956)] -> xpath: //img[@id='ctl00_ctl00_imgLogout']]]]>
             </line>
             <line>
               <![CDATA[Trying to find Element By : By.xpath: //input[@id='ctl00_ctl00_Main_Login_Login1_UserName']]]>
@@ -205,7 +257,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- ProfileTest -->
-        <test-method status="PASS" signature="Flush()[pri:0, instance:test.SWN.LoginPageTest@1a968a59]" name="Flush" is-config="true" duration-ms="1588" started-at="2020-02-10T23:34:20Z" finished-at="2020-02-10T23:34:22Z">
+        <test-method status="PASS" signature="Flush()[pri:0, instance:test.SWN.LoginPageTest@7cd62f43]" name="Flush" is-config="true" duration-ms="2448" started-at="2020-02-12T18:08:26Z" finished-at="2020-02-12T18:08:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Flush -->

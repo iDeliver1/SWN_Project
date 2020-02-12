@@ -14,7 +14,9 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
-import com.salesforce.qa.base.*;
+import com.swn.qa.base.TestBase;
+
+
 public class TestUtil extends TestBase {
 
 	public static long PAGE_LOAD_TIMEOUT = 20;

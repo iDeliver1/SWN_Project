@@ -24,13 +24,18 @@ public class LoginPageTest extends TestBase{
 	}
 	
 	//Initializing
-	
 	@BeforeTest
 	public void setUp() throws Throwable{
-		SetUP("SWNLogin");
-		loginPage = new LoginPage();
+		initialization();
 	}
 	
+	//Setting Up Reporter Name
+	@BeforeClass
+	public void createReport() throws Throwable{
+		SetUP("SWNLogin",driver.getTitle());
+		loginPage = new LoginPage();
+		myprofile = new MyProfile();
+	}
 	
 	//Login Test
 	@Test(priority=1)
@@ -49,8 +54,9 @@ public class LoginPageTest extends TestBase{
 	
 			//getReportname(new Object(){}.getClass().getEnclosingMethod().getName());
 	
-			myprofile = homepage.profile(prop.getProperty("profile"));	
-			myprofile.clickmyprofile();
+			//myprofile = homepage.profile(prop.getProperty("profile"));	
+			myprofile.clickmyprofile("Display Setting");
+			
 			myprofile.clickOnLogoutLink();
 	}
 	
