@@ -21,89 +21,39 @@
     <version>4.0.9</version>
 </dependency>
 
-<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
 <dependency>
-  <groupId>io.github.bonigarcia</groupId>
-  <artifactId>webdrivermanager</artifactId>  
-  <version>3.0.0</version>
-  <scope>test</scope>
-</dependency>
-
-
-  <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
-	<dependency>
 	    <groupId>org.seleniumhq.selenium</groupId>
 	    <artifactId>selenium-java</artifactId>
 	    <version>3.141.59</version>
 	</dependency>
 	  
-	<!-- https://mvnrepository.com/artifact/org.testng/testng -->
-	<dependency>
+	  <dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
     <version>6.9.10</version>
     <scope>test</scope>
 	</dependency>
-
 	
-	
-		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
-		<dependency>
+	<dependency>
 			<groupId>commons-io</groupId>
 			<artifactId>commons-io</artifactId>
 			<version>2.6</version>
 		</dependency>
-	
-	<!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
-<dependency>
-    <groupId>com.relevantcodes</groupId>
-    <artifactId>extentreports</artifactId>
-    <version>2.41.0</version>
-</dependency>
-	
-	<dependency>
-    <groupId>com.aventstack</groupId>
-    <artifactId>extentreports</artifactId>
-    <version>3.0.0</version>
-</dependency>
-
-<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
-<dependency>
-    <groupId>com.aventstack</groupId>
-    <artifactId>extentreports</artifactId>
-    <version>4.0.0</version>
-</dependency>
-
-<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
-<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
-<dependency>
+		
+		<dependency>
     <groupId>org.apache.poi</groupId>
     <artifactId>poi</artifactId>
     <version>3.17</version>
 </dependency>
 
-<!-- https://mvnrepository.com/artifact/commons-logging/commons-logging -->
 <dependency>
     <groupId>commons-logging</groupId>
     <artifactId>commons-logging</artifactId>
     <version>1.1.1</version>
 </dependency>
-
-<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium.fluent/fluent-selenium -->
-<dependency>
-    <groupId>org.seleniumhq.selenium.fluent</groupId>
-    <artifactId>fluent-selenium</artifactId>
-    <version>1.17</version>
-</dependency>
+	
+	
 	
   </dependencies>
-  
-	<repositories>
-  		<repository>
-    		<id>jcenter</id>
-    		<name>bintray</name>
-    		<url>http://jcenter.bintray.com</url>
-  		</repository>
-	</repositories>
-  
+
 </project>
